@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<head>
+    <title>Log in</title>
+   <style>
+body {
+    font-family:cursive;
+    background: #000000;
+}
+
+.form-container {
+    width: 400px;
+    margin: 100px auto;
+    padding: 20px;
+    background: rgb(0, 0, 0);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(223, 221, 221, 0.881);
+}
+
+h2 {
+    text-align: center;
+    color:rgb(227, 213, 131) ;
+}
+
+input {
+    width: 95%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input:focus {
+    border-color: rgb(227, 213, 131);
+    outline: none;
+}
+
+#log {
+    width: 49%;
+    padding: 10px;
+    background: rgb(227, 213, 131);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#log:hover {
+    background: rgb(139, 132, 87);
+}
+#sub{
+    width: 49%;
+    padding: 10px;
+    background: rgb(255, 255, 255);
+    color: rgb(227, 213, 131);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#sub:hover {
+    background: rgb(225, 225, 220);}
+</style>
+
+</head>
+
+<body>
+
+<div class="form-container">
+    <div><h2>Log in</h2></div>
+    <form>
+        <input type="email" placeholder="Email" required>
+        <input type="password" placeholder="Password" required>
+        <a href="Home"></a><button id="log" type="submit">Submit</button></a>
+        <a href="signup.html"><button id="sub" type="button">Sign up</button></a>
+    </form>
+</div>
+
+</body>
